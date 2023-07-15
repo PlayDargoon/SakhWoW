@@ -1,0 +1,29 @@
+{
+	"name":"Guild viewer",
+	"description":"Displays guild members",
+	"author":
+	{
+		"name":"FusionGen",
+		"website":"http:\/\/fusiongen.net"
+	},
+	"enabled":false,
+	"permissions":
+	{
+		"view":
+		{
+			"default":true,
+			"description":"View the guild pages"
+		}
+	},
+	"roles":
+	{
+		"view":
+		{
+			"description":"View the guild pages.",
+			"permissions":
+			{
+				"view":true
+			}
+		}
+	}
+}
